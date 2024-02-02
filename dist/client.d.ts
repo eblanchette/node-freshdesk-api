@@ -60,7 +60,9 @@ declare class Freshdesk {
     deleteTicket(id: any, cb: any): void;
     restoreTicket(id: any, cb: any): void;
     listAllConversations(id: any, cb: any): void;
+    listAllSatisfactionRatings(params: any, cb: any): void;
     listAllTicketTimeEntries(id: any, cb: any): void;
+    listAllTicketSatisfactionRatings(id: any, cb: any): void;
     createReply(id: any, data: any, cb: any): void;
     createNote(id: any, data: any, cb: any): void;
     updateConversation(id: any, data: any, cb: any): void;

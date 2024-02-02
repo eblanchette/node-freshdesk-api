@@ -14,6 +14,7 @@ export class FreshdeskError extends Error {
     status: any;
     apiTarget: string;
     requestId: any;
+    retryAfter: number;
 }
 /**
  * Checks if value is null or undefined.
